@@ -1,0 +1,59 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Style général du layout */
+.ant-layout {
+  min-height: 100vh;
+}
+
+/* Header */
+.ant-layout-header {
+  display: flex;
+  height: 150px;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #4B0082; /* Couleur violet foncé */
+}
+
+/* Menu horizontal */
+.ant-menu-horizontal {
+  border-bottom: none;
+  height: 40px; /* Hauteur du menu */
+  background-color: #7E49A5;
+  line-height: 50px; /* Assurez-vous que le texte est centré verticalement */
+  font-size: 14px; /* Ajustez la taille du texte pour qu'il soit plus petit */
+}
+
+/* Items du menu */
+.ant-menu-item {
+  height: 40px; /* Hauteur de chaque item */
+  line-height: 40px; /* Centrer le texte verticalement dans l'élément */
+  font-size: 20px; /* Taille de la police des items du menu */
+}
+
+/* Item sélectionné */
+.ant-menu-item-selected {
+  background-color: #4B0082 !important; /* Couleur personnalisée pour l'élément sélectionné */
+  color: white !important; /* Couleur du texte sélectionné */
+  font-weight: bold; /* Mettre le texte en gras si vous le souhaitez */
+}
+
+/* Content */
+.ant-layout-content {
+  background-color: #f0f2f5;
+  flex: 1;
+  padding: 20px; /* Ajout de marges pour les petits écrans */
+}
+
+/* Footer */
+.ant-layout-footer {
+  text-align: center;
+  background-color: #4B0082; /* Couleur violet foncé */
+  color: white;
+  padding: 10px 20px;
+}
