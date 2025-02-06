@@ -1,0 +1,4 @@
+Administrateur : 
+
+email : johndoe@example.com
+password : D7z#Nw2K
