@@ -1,3 +1,4 @@
+Login d'aministrateur fictif pour tester le backoffice 
 Administrateur : 
 
 email : johndoe@example.com
