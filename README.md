@@ -1,6 +1,6 @@
 Installation :
 
-=> npm install
+* npm install
 => npm i react-router-dom 
 => npm install react-redux @reduxjs/toolkit
 => npm i antd
